@@ -1,4 +1,4 @@
-function resizeThumb(e,t,g){for(var m=document.getElementById(e),r=m.getElementsByTagName("img"),s=0;s<r.length;s++)r[s].src=r[s].src.replace(/\/s1600/,"/s"+t),r[s].width=t,r[s].height=g}resizeThumb("Blog1",326,180);
+function resizeThumb(e,t,g){for(var m=document.getElementById(e),r=m.getElementsByTagName("img"),s=0;s<r.length;s++)r[s].src=r[s].src.replace(/\/s1600/,"/s"+t),r[s].width=t,r[s].height=g}resizeThumb("Blog1",285,120);
 
 /*!
  * Masonry PACKAGED v4.0.0
